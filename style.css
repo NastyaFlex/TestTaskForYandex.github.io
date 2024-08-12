@@ -1,0 +1,727 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+@font-face {
+	font-family: 'Golos'; 
+	src: url(fonts/golos.ttf)
+}
+@font-face {
+    font-family: 'Golos-Regular'; 
+    src: url(fonts/golos-regular.ttf)
+}
+@font-face {
+    font-family: 'Golos-Medium'; 
+    src: url(fonts/golos-medium.ttf)
+}
+@font-face {
+	font-family: 'Merriweather'; 
+	src: url(fonts/merriweather.ttf)
+}
+.bock-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -1032px;
+    padding-top: 11px;
+}
+.name-logo {
+    color: #595653;
+    font-family: 'Golos';
+    font-size: 16px;
+}
+.header, .block-offer {
+    background-color: #E9DED4;
+    background-blend-mode: overlay;
+    overflow: hidden;
+    background-image: url(img/background.png);
+}
+.offer-text-1, .offer-text-2, .offer-text-3 {
+    margin: 0;
+    font-size: 60px;
+    color: #313131;
+    font-family: 'Merriweather';
+}
+.offer-text-2 {
+    margin-left: 94px;
+}
+.offer-text-3 {
+    margin-left: 38px; 
+}
+.offer-small-text-1, .offer-small-text-2 {
+    color: #313131;
+    font-size: 18px;
+    font-family: 'Golos-Regular';
+}
+.offer-small-text-1 {
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.offer-small-text-2 {
+    margin-left: -24px;
+}
+.offer-buttons {
+    width: 263px;
+    height: 72px;
+    border: 3px solid #1F1F1F;
+    font-size: 16px;
+    border-radius: 50px;
+    font-family: 'Golos-Medium';
+    position: relative;
+    z-index: 2;
+}
+.offer-button-1 {
+    color: #ffffff;
+    background-color: #1F1F1F;
+}
+.offer-button-2 {
+    margin-left: 12px;
+    color: #1F1F1F;
+    background: none;
+}
+.offer-button-1:hover{
+    background-color: #FBCE51;
+    color: #1F1F1F;
+    border: 3px solid #FBCE51;
+}
+.offer-button-2:hover {
+    background-color: #1F1F1F;
+    color: #ffffff;
+    border: 3px solid #1F1F1F;
+}
+.block-img {
+    width: 660px;
+    height: 660px;
+    margin-left: 64px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.background-yellow-circle {
+    width: 660px;
+    height: 660px;
+    border-radius: 100%;
+    background-image: url(img/background.png);
+    opacity: 0.3;
+}
+.yellow-circle {
+    width: 660px;
+    height: 660px;
+    background-color: #ffbc00;
+    border-radius: 100%;
+    margin-left: 64px;
+    margin-bottom: 100px;
+    position: absolute;
+}
+.block-offer {
+    display: flex;
+    justify-content: center;
+    padding-top: 44px;
+}
+.block-offer-img {
+    margin-top: -160px;
+}
+.img-city {
+    margin-top: 330px;
+    margin-left: -776px;
+    position: absolute;
+    z-index: 1;
+}
+.img-line {
+    margin-top: 319px;
+    margin-left: -778px;
+    position: absolute;
+    z-index: 1;
+}
+.img-horse {
+    margin-top: 542px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 175px;
+}
+.img-pawn {
+    margin-left: 575px;
+    margin-top: 616px;
+    position: absolute;
+    z-index: 2;
+}
+.img-king {
+    position: absolute;
+    margin-top: 324px;
+    margin-left: 68px;
+}
+.img-queen {
+    position: absolute;
+    margin-top: 218px;
+    margin-left: 406px;
+}
+.img-words {
+    margin-left: -59px;
+    margin-top: -59px;
+}
+.running-line {
+    background-color: #F54932;
+    font-size: 22px;
+    color: #ffffff;
+    height: 60px;
+    font-family: 'Merriweather';
+    display: flex;
+    align-items: center;
+}
+.text-information {
+    font-size: 36px;
+    font-family: 'Merriweather';
+}
+.red-text {
+    color: #F54932;
+    font-weight: 600;
+}
+.information-for-window {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.block-session-text {
+    font-size: 36px;
+    width: 704px;
+    font-family: 'Merriweather';
+}
+.block-informations {
+    margin-top: 80px;
+}
+.session-table {
+    border-collapse: collapse;
+    font-size: 38px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.line-bottom {
+    border-bottom: 2px solid #D0D0D0;
+    width: 350px;
+}
+.text-first-column, .text-second-column {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text-second-column {
+    border-left: 2px solid #D0D0D0;
+}
+.block-information-about-session {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 50px;
+}
+.information-about-session-text {
+    display: flex;
+    flex-direction: column;
+}
+.text-first-column {
+    font-family: 'Golos-Regular';
+    color: #313131;
+    padding-left: 0px;
+}
+.text-second-column {
+    font-family: 'Golos';
+    color: #313131; 
+    padding-left: 15px;
+}
+.red-line {
+    text-decoration-color: red;
+}
+.administration, .stages-link {
+    color: #3057A2;
+    font-family: 'Golos-Regular';
+    font-size: 20px;
+    text-decoration: none;
+}
+.block-stages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+}
+.stages-text-1,  .stages-text-2{
+    font-family: 'Merriweather';
+    font-size: 54px;
+    color: #313131;
+    margin: 0;
+}
+.stages-text-2 {
+    margin-right: 20px;
+}
+.stages-text-1 {
+    margin-left: -520px;
+}
+.block-stages-text-2 {
+    display: flex;
+    align-items: center;
+    margin-left: -680px;
+    margin-bottom: 50px;
+}
+.stage-text {
+    font-size: 20px;
+    color: #313131;
+    font-family: 'Golos-Medium';
+    margin-left: 30px;
+}
+.stage {
+    background-color: #E9DED4;
+    padding-top: 20px;
+    display: flex;
+    background-image: url(img/background2.png);
+}
+.circle-stage {
+    border-radius: 100px;
+    background-color: #ffffff;
+    color: #313131;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Golos';
+    margin-left: 20px;
+}
+.stage-1, .stage-2, .stage-4, .stage-5 {
+    width: 394px;
+    height: 112px;
+}
+.stage-6 {
+    width: 394px;
+    height: 136px;
+    grid-column-start: 1;
+}
+.stage-3 {
+    width: 394px;
+    height: 267px;
+}
+.stage-7 {
+    width: 808px;
+    height: 136px;
+}
+.stage-text-1, .stage-text-2, .stage-text-4, .stage-text-5, .stage-text-3, .stage-text-5, .stage-text-6, .stage-text-7 {
+    margin-top: 0px;
+    margin-left: 15px;
+}
+.stage-text-1, .stage-text-2, .stage-text-4, .stage-text-5, .stage-text-3, .stage-text-5, .stage-text-6 {
+    width: 302px;
+}
+.stage-text-7 {
+    width: 446px;
+}
+.stages {
+    display: grid;
+    grid-template-columns: 400px 400px 1fr;
+    grid-template-rows: 140px 140px;
+    gap: 15px;
+}
+.img-plane {
+    position: absolute;
+    margin-left: 480px;
+    margin-top: -120px;
+}
+.participants-tournament-text {
+    font-size: 54px;
+    font-family: 'Merriweather';
+    color: #313131;
+}
+.head-articipants-tournament {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 450px;
+}
+.participants-tournament-buttons {
+    display: flex;
+}
+#big-button-back, #big-button-next {
+    width: 44px;
+    height: 44px;
+}
+#name-man1, #name-man2,#name-man3, #name-man-phone {
+    font-size: 24px;
+    font-family: 'Golos';
+    color: #313131;
+}
+.block-slide-numbers {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#status-man1, #status-man2, #status-man3, #status-man-phone {
+    font-size: 20px;
+    font-family: 'Golos-Regular';
+    color: #313131;
+    opacity: 0.5;
+    margin-top: -20px;
+}
+#button-detail {
+    border: 2px solid #3057A2;
+    color: #3057A2;
+    font-size: 16px;
+    font-family: 'Golos-Medium';
+    border-radius: 100px;
+    width: 113px;
+    height: 35px;
+    background: transparent;
+}
+.carousel-participants-tournament {
+    display: flex;
+    justify-content: center;
+    column-gap: 180px;
+}
+.participants-tournament {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#slide-numbers, .number-participants {
+    font-family: 'Golos-Regular';
+    color: #313131;
+    font-size: 16px; 
+}
+.number-participants {
+    opacity: 0.6;
+}
+.block-participants-tournament, .block-participants-tournament-phone {
+    margin-bottom: 140px;
+    margin-top: 140px;
+}
+.footer {
+    background-color: #E9DED4;
+    padding: 47px 70px 82px 70px;
+}
+.footer-text {
+    margin: 0;
+    color: #313131;
+    opacity: 0.6;
+    font-family: 'Golos-Regular';
+    font-size: 16px;
+}
+.block-running-line {
+    overflow: hidden;
+}
+@media (min-width: 376px) {
+    .information-for-phone {
+        display: none;
+    }
+    .session-table-phone {
+        display: none;
+    }
+    .block-session-text {
+        font-size: 36px;
+    }
+    .block-stages-phone {
+        display: none;
+    }
+    .block-participants-tournament-phone {
+        display: none;
+    }
+}
+@media (max-width: 1366px) {
+    .left-indentation {
+        margin-left: 49px;
+    }
+    .block-offer {
+        overflow-x: hidden;
+    }
+    .information-for-window {
+        display: flex;
+        justify-content: center;
+    }
+    .bock-header {
+        margin-left: -980px;
+    }
+    .yellow-circle {
+        overflow: hidden;
+    }
+}
+@media (max-width: 375px) {
+    .left-indentation {
+        margin-left: 20px;
+    }
+    .bock-header {
+        margin-left: -100px;
+    }
+    .offer-small-text-1 {
+        margin-left: 0px;
+    }
+    .offer-small-text-2 {
+        margin-left: 5px;
+    }
+    .offer-small-text-1 br {
+        display: none;
+    }
+    .offer-text-1, .offer-text-2, .offer-text-3 {
+        font-size: 36px;
+        margin-top: -16px;
+    }
+    .offer-text-2 {
+        margin-left: 64px;
+    }
+    .offer-text-3 {
+        margin-left: 33px;
+    }
+    .offer-buttons {
+        width: 335px;
+        height: 47px;
+        margin-top: 52px;
+    }
+    .block-offer {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .block-img {
+        width: 297px;
+        height: 297px;
+        margin-top: 75px;
+        margin-left: 30px;
+    }
+    .yellow-circle {
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 28px;
+        position: absolute;
+    }
+    .background-yellow-circle {
+        width: 300px;
+        height: 300px;
+    }
+    .img-city {
+        width: 885px;
+        margin-left: -430px;
+        margin-top: 162px;
+    }
+    .img-line {
+        width: 885px;
+        margin-left: -442px;
+        margin-top: 158px;
+    }
+    .img-queen {
+        margin-top: 125px;
+        margin-left: 200px;
+        height: 114px;
+        transform: rotate(8deg);
+    }
+    .img-king {
+        margin-top: 172px;
+        margin-left: 30px;
+        height: 114px;
+    }
+    .img-horse {
+        margin-left: 115px;
+        margin-top: 284px;
+        height: 114px;
+    }
+    .offer-button-1 {
+        margin-top: -7px;
+    }
+    .offer-button-2 {
+        margin-top: 14px;
+        margin-left: 0px;
+    }
+    .img-words {
+        width: 350px;
+        margin-left: -25px;
+        margin-top: -24px;
+    }
+    .information-for-window {
+        display: none;
+    }
+    .running-line {
+        width: 375px;
+        height: 38px;
+        font-size: 16px;
+    }
+    .img-people {
+        width: 335px;
+    }
+    .text-information-for-phone {
+        font-size: 28px;
+        font-family: 'Merriweather'; 
+    }
+    .information-for-phone {
+        display: initial;
+        margin-top: 48px;
+    }
+    .block-informations {
+        margin-left: 20px;
+    }
+    .block-information-about-session {
+        flex-direction: column;
+    }
+    .block-session-text {
+        font-size: 28px;
+        width: 335px;
+    }
+    .img-person {
+        width: 335px;
+    }
+    .text-first-column-phone-version {
+        font-family: 'Golos-Regular';
+        color: #313131;
+        font-size: 20px;
+    }
+    .text-second-column-phone-version {
+        font-family: 'Golos';
+        color: #313131;
+        font-size: 20px;
+    }
+    .session-table {
+        display: none;
+    }
+    .administration {
+        font-size: 18px;
+    }
+    .grey-line {
+        width: 335px;
+        border: 1px solid #D0D0D0;
+    }
+    .session-table-phone {
+        line-height: 1.6em;
+    }
+    .block-stages {
+        display: none;
+    }
+    .stages-text-1-phone {
+        font-size: 36px;
+        font-family: 'Merriweather';
+        color: #313131;
+        margin-bottom: 10px;
+    }
+    .stages-link-phone {
+        color: #3057A2;
+        font-family: 'Golos-Regular';
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .img-plane-phone {
+        width: 317px;
+    }
+    .carousel {
+        width: 335px;
+        height: 230px;
+        background-color: #D0D0D0;
+        padding-top: 70px;
+        margin-top: -75px;
+        margin-top: -75px;
+        background-image: url(img/background2.png);
+    }
+    .carousel-first-line, .carousel-second-line {
+        display: flex;
+        justify-content: center;
+    }
+    #text-stages-carousel-first-line, #text-stages-carousel-second-line {
+        font-family: 'Golos-Medium';
+        font-size: 18px;
+        width: 243px;
+        margin-top: 0px;
+        margin-left: 18px;
+    }
+    .carousel-second-line {
+        margin-top: 20px;
+    }
+    #circle-white-first-line, #circle-white-second-line {
+        width: 36px;
+        height: 36px;
+        border-radius: 100px;
+        background-color: #ffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        font-family: 'Golos';
+        color: #313131;
+    }
+    #carousel-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        margin-left: -20px;
+    }
+    .level-list {
+        margin-left: 2px;
+        margin-right: 2px;
+        width: 10px;
+        height: 10px;
+        background-color: #D9D9D9;
+        border-radius: 100px;
+    }
+    .levels-carousel {
+        margin-left: 12px;
+        margin-right: 15px;
+        display: flex;
+    }
+    .button-back {
+        z-index: 1;
+        position: relative;
+    }
+    .button-next {
+        z-index: 1;
+        position: relative;
+    }
+    #block-button-right {
+        width: 36px;
+        height: 36px;
+        border-radius: 100px;
+        z-index: 2;
+        position: absolute;
+        margin-left: 130px;
+    }
+    #block-button-left {
+        width: 36px;
+        height: 36px;
+        border-radius: 100px;
+        z-index: 2;
+        position: absolute;
+        margin-left: -133px;
+    }
+    #block-button-right {
+        display: none;
+    }
+    .participants-tournament-text-phone {
+        font-size: 36px;
+        font-family: 'Merriweather';
+    }
+    .carousel-participants-tournament-phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .participants-tournament-buttons-phone {
+        display: flex;
+        margin-top: 30px;
+    }
+    #slide-numbers-phone, .number-participants-phone {
+        color: #313131;
+        font-family: 'Golos-Regular';
+        font-size: 16px;
+    }
+    .number-participants-phone {
+        opacity: 0.6;
+    }
+    .footer {
+        padding: 40px 44px 63px 44px;
+    }
+    .footer-text {
+        font-size: 16px;
+    }
+    .block-participants-tournament {
+        display: none;
+    }
+    .information-about-session-text {
+        margin-top: -30px;
+    }
+    .block-stages-phone {
+        margin-top: 124px;
+    }
+    .block-participants-tournament-phone {
+        margin-bottom: 88px;
+        margin-top: 124px;
+    }
+}
